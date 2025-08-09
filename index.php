@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from wivana-html.zaderonstudio.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Aug 2025 13:07:45 GMT -->
+
 <head>
-    <meta charset="UTF-8" />
+ <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Wivana</title>
+    <title>SANDEEP'S ASHTANGA YOGA INSTITUTE - Sayi</title>
     <link rel="icon" type="image/x-icon" href="icon/favicon.ico" />
     <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
     <link href="lib/css/fontawesome.css" rel="stylesheet" />

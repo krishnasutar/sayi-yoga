@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from wivana-html.zaderonstudio.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Aug 2025 13:08:28 GMT -->
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
