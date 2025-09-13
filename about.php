@@ -39,141 +39,15 @@
         >
           <div>
             <i class="fa-regular fa-envelope fs-16"></i
-            ><span class="ms-2 fs-13"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="c0a3afaeb4a1a3b480b7a9b6a1aea1eea3afad">[email&#160;protected]</a></span>
+            ><span class="ms-2 fs-13">sandeepshivashankar@gmail.com</span>
           </div>
           <div>
             <i class="fa-solid fa-phone me-2 fs-16"></i
-            ><span class="fs-13">+1 (555) 123-4567</span>
+            ><span class="fs-13">+91 8105572666</span>
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-dark lato">
-        <div class="container-lg d-flex">
-          <a class="navbar-brand ms-0 ms-sm-3 ms-lg-0" href="index.html">
-            <img
-              src="img/wivana-logo-dark.png"
-              alt="Brand Logo"
-              width="166"
-              height="41"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-
-          <button
-            class="navbar-toggler me-3"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            data-bs-scroll="true"
-            aria-labelledby="offcanvasNavbar"
-          >
-            <div class="offcanvas-header">
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body d-lg-flex justify-content-center">
-              <ul class="navbar-nav gap-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <button
-                    class="nav-link"
-                    id="servicesDropdown"
-                    data-bs-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Services
-                    <i class="fa-solid fa-angle-down ms-1"></i>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                    <li>
-                      <a class="dropdown-item" href="services.html">Services</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="services-detail.html"
-                        >Service Detail</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <button
-                    class="nav-link"
-                    id="pagesDropdown"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Pages
-                    <i class="fa-solid fa-angle-down ms-1"></i>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
-                    <li>
-                      <a class="dropdown-item" href="team.html">Team</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="packages.html">Packages</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="our-process.html"
-                        >Our Process</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="faqs.html">FAQS</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="testimonials.html"
-                        >Testimonials</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="blog-post.html"
-                        >Blog Post</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="single-post.html"
-                        >Single Post</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="404-page.html">404 Page</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="d-none d-lg-flex">
-            <a href="contact.html" class="btn-light"> Make Appointment </a>
-          </div>
-        </div>
-      </nav>
+      <?php include 'navbar.php'; ?>
       <!-- Navbar End -->
 
       <!-- Banner Start -->
@@ -245,47 +119,33 @@
                   <span class="ms-2 philosopher fs-14 c-main">ABOUT US</span>
                 </div>
                 <div class="title-about c-semi-black mt-4">
-                  Sanctuary for Ayurvedic Healing and Wellness
+                  SRI. SANDEEP SHIVASHANKAR
                 </div>
               </div>
-              <span class="text-grey"
-                >At Wivana, we embrace authentic Ayurveda to nurture holistic
-                wellness, empowering you to find balance and rejuvenation in
-                life</span
-              >
+              <span class="text-grey">
+                Sandeep Shivashankar is a very well known yoga and wellness teacher based in Mysuru, the Yoga capital of India. He is one of the very few authorized yoga instructors from the world renowned yoga shala, K. Pattabhi Jois Ashtanga Yoga Institute (KPJAYI), Mysuru.
+              </span>
               <div class="d-block d-lg-flex">
-                <div class="d-flex align-items-center my-3">
-                  <span class="icon-circle-37-main me-3"
-                    ><i class="fa-solid fa-check"></i
-                  ></span>
-                </div>
+                
                 <div>
-                  <span class="text-subtitle c-semi-black my-4"
-                    >Ayurvedic Exspanertise</span
-                  >
+                  <span class="text-subtitle c-semi-black my-4">
+                    Background & Experience
+                  </span>
                   <br />
                   <p class="text-grey my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                    Having over 15 years of experience in asana practice, he has mastered the skills in clear explanation, instructor guided classes, proper adjustments and breathing techniques. Born in Mysore, he grew up in a typical orthodox Brahmin family with passion towards artistic field, starting his career in theater, dance, and fitness at a very young age.
                   </p>
                 </div>
               </div>
               <div class="dblock d-lg-flex">
-                <div class="d-flex align-items-center my-3">
-                  <span class="icon-circle-37-main me-3"
-                    ><i class="fa-solid fa-check"></i
-                  ></span>
-                </div>
+                
                 <div>
-                  <span class="text-subtitle c-semi-black my-4"
-                    >Ayurvedic Exspanertise</span
-                  >
+                  <span class="text-subtitle c-semi-black my-4">
+                    Yoga Journey
+                  </span>
                   <br />
                   <p class="text-grey my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                    Sandeep started practicing yoga with an intention to balance his lifestyle. After several years of practice with various instructors, he took it as a way of life when he started to practice in 2012 under the guidance of Yoga Paramaguru Sri. R. Sharath Jois of KPJAYI. He underwent rigorous training to obtain authorization to teach traditional Mysore style Ashtanga yoga.
                   </p>
                 </div>
               </div>
@@ -438,21 +298,7 @@
       </div>
     </div>
     <!-- Core Value End -->
-    <!-- Video Start -->
-    <div class="bg-darker">
-      <div class="width-base">
-        <div class="video-wrapper fade-in">
-          <iframe
-            src="https://www.youtube.com/embed/VhBl3dHT5SY"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          >
-          </iframe>
-        </div>
-      </div>
-    </div>
-    <!-- Video End -->
+    
     <!-- Team Start -->
     <div class="bg-subtle">
       <div class="width-base fade-in">

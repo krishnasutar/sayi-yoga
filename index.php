@@ -43,148 +43,15 @@
           >
             <div>
               <i class="fa-regular fa-envelope fs-16"></i
-              ><span class="ms-2 fs-13"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="95f6fafbe1f4f6e1d5e2fce3f4fbf4bbf6faf8">[email&#160;protected]</a></span>
+              ><span class="ms-2 fs-13">sandeepshivashankar@gmail.com</span>
             </div>
             <div>
               <i class="fa-solid fa-phone me-2 fs-16"></i
-              ><span class="fs-13">+1 (555) 123-4567</span>
+              ><span class="fs-13">+91 8105572666</span>
             </div>
           </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark lato">
-          <div class="container-lg d-flex">
-            <a class="navbar-brand ms-0 ms-sm-3 ms-lg-0" href="index.html">
-              <img
-                src="img/wivana-logo-dark.png"
-                alt="Brand Logo"
-                width="166"
-                height="41"
-                class="d-inline-block align-text-top"
-              />
-            </a>
-
-            <button
-              class="navbar-toggler me-3"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div
-              class="offcanvas offcanvas-start"
-              tabindex="-1"
-              id="offcanvasNavbar"
-              data-bs-scroll="true"
-              aria-labelledby="offcanvasNavbar"
-            >
-              <div class="offcanvas-header">
-                <button
-                  type="button"
-                  class="btn-close text-reset"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="offcanvas-body d-lg-flex justify-content-center">
-                <ul class="navbar-nav gap-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <button
-                      class="nav-link"
-                      id="serviceDropdown"
-                      data-bs-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Services
-                      <i class="fa-solid fa-angle-down ms-1"></i>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
-                      <li>
-                        <a class="dropdown-item" href="services.html"
-                          >Services</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="services-detail.html"
-                          >Service Detail</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <button
-                      class="nav-link"
-                      id="pagesDropdown"
-                      data-bs-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Pages
-                      <i class="fa-solid fa-angle-down ms-1"></i>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
-                      <li>
-                        <a class="dropdown-item" href="team.html">Team</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="packages.html"
-                          >Packages</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="our-process.html"
-                          >Our Process</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="faqs.html">FAQS</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="testimonials.html"
-                          >Testimonials</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="blog-post.html"
-                          >Blog Post</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="single-post.html"
-                          >Single Post</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="404-page.html"
-                          >404 Page</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="d-none d-lg-flex">
-              <a href="contact.html" class="btn-light"> Make Appointment </a>
-            </div>
-          </div>
-        </nav>
+        <?php include 'navbar.php'; ?>
         <!-- Navbar End -->
 
         <!-- Hero Section Start -->
@@ -194,16 +61,15 @@
               <span class="icon-circle-17"
                 ><i class="fa-solid fa-plus"></i></span
               ><span class="ms-2 philosopher fs-14"
-                >WiVANA - AYURVEDIC SPA AND WELLNESS</span
+                >SANDEEP'S ASHTANGA YOGA INSTITUTE - MYSURU</span
               >
             </div>
             <h1 class="hero-title mt-3 mb-5">
-              Experience Holistic Healing and Serenity with Ayurveda at Wivana
+              Experience the Authentic Practice of Ashtanga Yoga in Mysuru
             </h1>
             <div>
               <p class="lato fs-16 c-silver hero-subtitle">
-                Experience the transformative power of Ayurveda at Wivana--your
-                sanctuary for holistic wellness, rejuvenation, and inner peace
+                With sincere devotion and discipline, we guide you through the profound practice of traditional Mysore-style Ashtanga yoga, fostering deeper awareness, peace, and holistic well-being.
               </p>
             </div>
           </div>
@@ -251,60 +117,7 @@
               </div>
             </div>
           </div>
-          <div class="d-block d-lg-flex gap-5 content-m">
-            <div class="form-container fade-in">
-              <form
-                action="#"
-                class="d-block d-lg-flex gap-4 align-items-center justify-content-between"
-              >
-                <div class="mb-3">
-                  <label for="name" class="c-white philosopher fs-14"
-                    >YOUR NAME</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="phone" class="c-white philosopher fs-14"
-                    >YOUR NUMBER</label
-                  >
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="phone"
-                    placeholder="Your Number"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="date" class="c-white philosopher fs-14"
-                    >Date</label
-                  >
-                  <input
-                    type="date"
-                    class="form-control date"
-                    id="date"
-                    required
-                  />
-                </div>
-                <div>
-                  <button class="btn-light mt-3">Book Now</button>
-                </div>
-              </form>
-            </div>
-            <div
-              class="d-flex align-items-end c-text lato gap-3 mt-3 mt-lg-0 fade-in"
-            >
-              <div>Relaxation</div>
-              <div>Meditation</div>
-              <div>Ayurvedic</div>
-            </div>
-          </div>
+          
         </section>
         <!-- Hero Section End -->
       </div>
@@ -355,47 +168,33 @@
                   <span class="ms-2 philosopher fs-14 c-main">ABOUT US</span>
                 </div>
                 <div class="title-about c-semi-black mt-4">
-                  Sanctuary for Ayurvedic Healing and Wellness
+                  About SAYI
                 </div>
               </div>
-              <span class="text-grey"
-                >At Wivana, we embrace authentic Ayurveda to nurture holistic
-                wellness, empowering you to find balance and rejuvenation in
-                life</span
-              >
+              <span class="text-grey">
+                SAYI was founded in 2017 with the vision of offering an environment that aligns the mind, body, and soul through the profound practice of yoga. Located in Mysuru, the Yoga Capital of India, our shala is dedicated to guiding individuals of all levels along the Ashtanga discipline, fostering deeper awareness, peace, and holistic well-being.
+              </span>
               <div class="d-block d-lg-flex">
-                <div class="d-flex align-items-center my-3">
-                  <span class="icon-circle-37-main me-3"
-                    ><i class="fa-solid fa-check"></i
-                  ></span>
-                </div>
+                
                 <div>
-                  <span class="text-subtitle c-semi-black my-4"
-                    >Ayurvedic Exspanertise</span
-                  >
+                  <span class="text-subtitle c-semi-black my-4">
+                    About Ashtanga Yoga
+                  </span>
                   <br />
                   <p class="text-grey my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                    Ashtanga Yoga is an ancient system of Yoga that was taught by Vamana Rishi in the Yoga Korunta. This text was imparted to Sri T. Krishnamacharya in the early 1900's by his Guru Rama Mohan Brahmachari, and was later passed down to Pattabhi Jois during the duration of his studies with Krishnamacharya, beginning in 1927.
                   </p>
                 </div>
               </div>
               <div class="dblock d-lg-flex">
-                <div class="d-flex align-items-center my-3">
-                  <span class="icon-circle-37-main me-3"
-                    ><i class="fa-solid fa-check"></i
-                  ></span>
-                </div>
+                
                 <div>
-                  <span class="text-subtitle c-semi-black my-4"
-                    >Ayurvedic Exspanertise</span
-                  >
+                  <span class="text-subtitle c-semi-black my-4">
+                    Traditional Teaching
+                  </span>
                   <br />
                   <p class="text-grey my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                    Shri. Pattabhi Jois spread his knowledge world-wide, his method of teaching was popularly called as "Mysore – style Ashtanga Vinyasa Yoga". This traditional style of teaching was passed down to his grand-son Shri. R. Sharath Jois and was accepted as Paramaguru by all the Practitioners of Mysore-style Ashtanga Yoga around the world.
                   </p>
                 </div>
               </div>
@@ -1353,205 +1152,7 @@
     </div>
     <!-- Blog Post End -->
     <!-- Footer Start -->
-    <div class="bg-darker w-100">
-      <div class="width-base">
-        <div class="container px-0 footer-padding">
-          <div class="row row-cols-1 row-cols-lg-2 g-3">
-            <div class="col">
-              <div>
-                <a href="index.html">
-                  <img
-                    src="img/wivana-logo-dark.png"
-                    alt="wivana logo"
-                    class="footer-logo"
-                  />
-                </a>
-              </div>
-              <div class="my-4">
-                <div class="text-silver subtext-footer">
-                  Embrace the power of Ayurveda to restore, balance, revitalize
-                  your spirit.
-                </div>
-              </div>
-              <div class="d-flex gap-2 py-2">
-                <span class="icon-circle-32 bg-grey">
-                  <i
-                    class="fa-brands fa-facebook-f share"
-                    data-share-to="facebook"
-                  ></i>
-                </span>
-                <span
-                  class="icon-circle-32 bg-grey share"
-                  data-share-to="instagram"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </span>
-                <span
-                  class="icon-circle-32 bg-grey share"
-                  data-share-to="youtube"
-                >
-                  <i class="fa-brands fa-youtube"></i>
-                </span>
-                <span
-                  class="icon-circle-32 bg-grey share"
-                  data-share-to="linkedin"
-                >
-                  <i class="fa-brands fa-linkedin"></i>
-                </span>
-              </div>
-            </div>
-            <div class="col d-flex justify-content-end align-items-end">
-              <form class="newsletter-container" id="newsletterForm">
-                <h3 class="text-subtitle c-white">Newsletter</h3>
-                <div class="popup-message" id="popupMessage">
-                  <div>
-                    <i class="fa-solid fa-check fa-2xl"></i>
-                  </div>
-                  Thank you! The form submitted successfully
-                </div>
-                <div class="newsletter-form">
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    class="email-input"
-                  />
-                  <button type="submit" class="btn-newsletter">
-                    <svg
-                      id="Layer_1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 207.99"
-                      width="32"
-                      height="15"
-                    >
-                      <defs>
-                        <style>
-                          .cls-1 {
-                            fill: #fff;
-                            stroke-width: 0px;
-                          }
-                        </style>
-                      </defs>
-                      <path
-                        class="cls-1"
-                        d="M504.66,85.8L422.97,4.11c-5.48-5.48-14.36-5.48-19.83,0-5.48,5.48-5.48,14.36,0,19.83l66.02,66.02H162.65c-7.75,0-14.03,6.27-14.03,14.03s6.27,14.03,14.03,14.03h305.63l-66.05,66.02c-5.48,5.48-5.48,14.36,0,19.83,2.74,2.74,6.33,4.11,9.92,4.11s7.18-1.37,9.92-4.11l82.6-82.57c9.78-9.78,9.78-25.72,0-35.51Z"
-                      />
-                      <path
-                        class="cls-1"
-                        d="M120.87,89.97H14.03c-7.75,0-14.03,6.27-14.03,14.03s6.27,14.03,14.03,14.03h106.84c7.75,0,14.03-6.27,14.03-14.03s-6.27-14.03-14.03-14.03Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col-12 col-lg-4">
-              <h3 class="text-subtitle c-white mb-4">Working Hour</h3>
-              <p class="text-silver mb-4">
-                Our Doors Are Open for Your Healing Journey
-              </p>
-              <div class="mb-2">
-                <i class="fa-regular fa-clock" style="color: #c7c7c7"></i>
-                <span class="text-silver"
-                  >Monday - Friday: 9:00 AM - 8:00 PM</span
-                >
-              </div>
-              <div>
-                <i class="fa-regular fa-clock" style="color: #c7c7c7"></i>
-                <span class="text-silver">Sat - Sun : 8:00AM - 5:00PM</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-3">
-              <div>
-                <h3 class="text-subtitle c-white mb-3 mb-lg-4 mt-5 mt-lg-0">
-                  Address
-                </h3>
-                <div>
-                  <p class="text-silver pe-5">
-                    123 Wellness Road Serenity City, CA 90210 United States
-                  </p>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-subtitle c-white my-4">Contact</h3>
-                <div>
-                  <p class="text-silver my-0">+1(234)567890</p>
-                  <p class="text-silver">email : <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="761f18101936011f001718175815191b">[email&#160;protected]</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-1"></div>
-            <div class="col-12 col-lg-2">
-              <h3 class="text-subtitle c-white mb-0 mb-lg-4 mt-5 mt-lg-0">
-                Explore
-              </h3>
-              <ul class="footer-links">
-                <li>
-                  <a href="index.html" class="text-silver footer-link">Home</a>
-                </li>
-                <li>
-                  <a href="about.html" class="text-silver footer-link">About</a>
-                </li>
-                <li>
-                  <a href="packages.html" class="text-silver footer-link"
-                    >Packages</a
-                  >
-                </li>
-                <li>
-                  <a href="faqs.html" class="text-silver footer-link">FAQS</a>
-                </li>
-                <li>
-                  <a href="services.html" class="text-silver footer-link"
-                    >Services</a
-                  >
-                </li>
-                <li>
-                  <a href="team.html" class="text-silver footer-link">Team</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 col-lg-2">
-              <h3 class="text-subtitle c-white mb-0 mb-lg-4 mt-5 mt-lg-0">
-                Navigation
-              </h3>
-              <ul class="footer-links">
-                <li>
-                  <a href="index.html" class="text-silver footer-link"
-                    >Documentation</a
-                  >
-                </li>
-                <li>
-                  <a href="index.html" class="text-silver footer-link"
-                    >Privacy</a
-                  >
-                </li>
-                <li>
-                  <a href="about.html" class="text-silver footer-link"
-                    >Therapy</a
-                  >
-                </li>
-                <li>
-                  <a href="contact.html" class="text-silver footer-link"
-                    >Contact</a
-                  >
-                </li>
-                <li>
-                  <a href="blog-post.html" class="text-silver footer-link"
-                    >Blog Post</a
-                  >
-                </li>
-                <li>
-                  <a href="index.html" class="text-silver footer-link"
-                    >Cookies</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   <?php include 'footer.php'; ?>
     <!-- Footer End -->
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="lib/js/bootstrap.bundle.min.js"></script>
     <script src="lib/js/swiper-bundle.min.js"></script>
@@ -1559,5 +1160,4 @@
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"96c77a674d7c0e1c","version":"2025.7.0","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"bf2b6dfde57a4688a8a7204e4a949833","b":1}' crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from wivana-html.zaderonstudio.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Aug 2025 13:08:02 GMT -->
 </html>

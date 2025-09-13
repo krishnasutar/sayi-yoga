@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from wivana-html.zaderonstudio.com/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Aug 2025 13:08:18 GMT -->
+<!-- Mirrored from wivana-html.zaderonstudio.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Aug 2025 13:08:18 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services - Wivana</title>
+    <title>Contact Us - Wivana</title>
     <link rel="icon" type="image/x-icon" href="icon/favicon.ico" />
     <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
     <link href="lib/css/fontawesome.css" rel="stylesheet" />
-    <link rel="stylesheet" href="lib/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/border.css" />
-    <link rel="stylesheet" href="css/swiper.css" />
   </head>
 
   <body>
@@ -41,150 +39,25 @@
         >
           <div>
             <i class="fa-regular fa-envelope fs-16"></i
-            ><span class="ms-2 fs-13"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="f3909c9d87929087b3849a85929d92dd909c9e">[email&#160;protected]</a></span>
+            ><span class="ms-2 fs-13">sandeepshivashankar@gmail.com</span>
           </div>
           <div>
             <i class="fa-solid fa-phone me-2 fs-16"></i
-            ><span class="fs-13">+1 (555) 123-4567</span>
+            ><span class="fs-13">+91 8105572666</span>
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-dark lato">
-        <div class="container-lg d-flex">
-          <a class="navbar-brand ms-0 ms-sm-3 ms-lg-0" href="index.html">
-            <img
-              src="img/wivana-logo-dark.png"
-              alt="Brand Logo"
-              width="166"
-              height="41"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-
-          <button
-            class="navbar-toggler me-3"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            data-bs-scroll="true"
-            aria-labelledby="offcanvasNavbar"
-          >
-            <div class="offcanvas-header">
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body d-lg-flex justify-content-center">
-              <ul class="navbar-nav gap-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <button
-                    class="nav-link active"
-                    id="servicesDropdown"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Services
-                    <i class="fa-solid fa-angle-down ms-1"></i>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                    <li>
-                      <a class="dropdown-item" href="services.html">Services</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="services-detail.html"
-                        >Service Detail</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <button
-                    class="nav-link"
-                    id="pagesDropdown"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Pages
-                    <i class="fa-solid fa-angle-down ms-1"></i>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
-                    <li>
-                      <a class="dropdown-item" href="team.html">Team</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="packages.html">Packages</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="our-process.html"
-                        >Our Process</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="faqs.html">FAQS</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="testimonials.html"
-                        >Testimonials</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="blog-post.html"
-                        >Blog Post</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="single-post.html"
-                        >Single Post</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="404-page.html">404 Page</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="d-none d-lg-flex">
-            <a href="contact.html" class="btn-light"> Make Appointment </a>
-          </div>
-        </div>
-      </nav>
+      <?php include 'navbar.php'; ?>
       <!-- Navbar End -->
 
       <!-- Banner Start -->
       <div class="width-base">
         <div
-          class="container w-100 h-100 d-flex justify-content-center align-items-center mt-4"
+          class="container w-100 h-100 d-flex justify-content-center align-items-center mt-4 fade-in"
         >
-          <div class="fade-in">
+          <div>
             <h1 class="philosopher banner-title c-white text-center">
-              Services
+              Contact
             </h1>
             <div
               class="d-flex gap-3 philosopher fs-14 c-silver align-items-center justify-content-center large-padding mt-4"
@@ -194,296 +67,144 @@
                 class="fa-solid fa-arrow-right-long"
                 style="color: #c7c7c7"
               ></i>
-              <div>SERVICES</div>
-              <i
-                class="fa-solid fa-arrow-right-long"
-                style="color: #c7c7c7"
-              ></i>
-              <div>SERVICES</div>
+              <div>CONTACT</div>
             </div>
           </div>
         </div>
       </div>
       <!-- Banner End -->
     </div>
-    <!-- Our Service Start -->
-    <div class="bg-subtle w-100 position-relative large-padding">
+    <!-- Contact Us Start -->
+    <div class="bg-subtle">
       <div class="width-base">
-        <div class="row row-cols-1 row-cols-sm-2 g-3 align-items-end mb-5">
-          <div class="col fade-in">
-            <div>
-              <span class="icon-circle-17-main"
-                ><i class="fa-solid fa-plus c-main"></i
-              ></span>
-              <span class="ms-2 philosopher fs-14 c-main">OUR SERVICES</span>
+        <div class="container fade-in">
+          <div class="row row-cols-1 row-cols-lg-2 bg-darker border-radius-10">
+            <div class="col p-2 p-lg-5">
+              <div class="mb-5">
+                <div class="d-flex justify-content-start">
+                  <span class="icon-circle-17"
+                    ><i class="fa-solid fa-plus"></i
+                  ></span>
+                  <span class="ms-2 philosopher fs-14 c-white">CONTACT US</span>
+                </div>
+                <div class="title-about mt-1 mb-4 c-white">
+                  Get in Touch With Wivana
+                </div>
+                <p class="text-silver">
+                  Contact us today to start your journey towards holistic
+                  wellness. We’re here to assist with any inquiries or bookings
+                </p>
+              </div>
+              <form
+                class="bg-semi-white p-3 p-lg-4 mt-5 form"
+                action="#"
+                method="post"
+                id="contactForm"
+              >
+                <div class="popup-message" id="popupMessageContact">
+                  <div>
+                    <i class="fa-solid fa-check fa-2xl"></i>
+                  </div>
+                  Thank you! The form submitted successfully
+                </div>
+                <div class="form-row">
+                  <div class="form-field">
+                    <input
+                      type="text"
+                      id="firstname"
+                      class="form-input"
+                      placeholder="first name"
+                      required
+                    />
+                  </div>
+                  <div class="form-field">
+                    <input
+                      type="text"
+                      id="lastname"
+                      class="form-input"
+                      placeholder="last name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-field">
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-input"
+                      placeholder="your email"
+                      required
+                    />
+                  </div>
+                  <div class="form-field">
+                    <input
+                      type="number"
+                      id="phone"
+                      class="form-input"
+                      placeholder="phone number"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row full-width">
+                  <div class="form-field">
+                    <textarea
+                      id="message"
+                      class="form-textarea"
+                      rows="4"
+                      placeholder="message"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="form-row full-width mt-3">
+                  <button type="submit" class="form-button">Submit Now</button>
+                </div>
+              </form>
             </div>
-            <div class="title-about c-semi-black">
-              Discover Holistic Treatments for Mind, Body, and Spirit
+            <div class="col px-0 position-relative">
+              <img
+                src="img/contact-image.jpg"
+                alt="contact"
+                class="w-100 h-100 contact-image"
+              />
+              <div class="contact-card">
+                <div class="card-body bg-semi-white">
+                  <div class="d-flex flex-column gap-3">
+                    <div>
+                      <i class="fa-solid fa-location-dot c-main me-1 fs-22"></i>
+                      <span class="text-grey">
+                        207, 3A main, 1st stage, Brindavan Extension, Mysuru, Karnataka 570020
+                      </span>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-phone c-main me-1 fs-22"></i>
+                      <span class="text-grey">+91 8105572666</span>
+                    </div>
+                    <div>
+                      <i class="fa-regular fa-envelope c-main me-1 fs-22"></i>
+                      <span class="text-grey">sandeepshivashankar@gmail.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="text-grey fade-in">
-            Discover the transformative power of Ayurveda at Wivana, where each
-            personalized treatment is designed to restore balance, promote
-            healing, and enhance your overall well-being for a vibrant, healthy
-            life
           </div>
         </div>
-        <div>
-          <div class="bg-service-1 mb-4 fade-in">
-            <div class="custom-card">
-              <div class="card-body bg-semi-white">
-                <div>
-                  <p class="text-subtitle c-semi-black">Abhyanga Massage</p>
-                  <p class="text-grey">
-                    A full-body Ayurvedic oil massage designed to promote
-                    relaxation, and detoxification
-                  </p>
-                </div>
-                <div
-                  class="d-flex justify-content-between align-items-start border-top pt-3"
-                >
-                  <div class="lato c-semi-black fs-18">$125/session</div>
-                  <div>
-                    <a href="services-detail.html" class="btn-dark">
-                      Learn More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-service-2 mb-4 fade-in">
-            <div class="custom-card">
-              <div class="card-body bg-semi-white">
-                <div>
-                  <p class="text-subtitle c-semi-black">Phancakarma Detox</p>
-                  <p class="text-grey">
-                    A comprehensive detoxification program that includes
-                    therapeutic treatments and herbal
-                  </p>
-                </div>
-                <div
-                  class="d-flex justify-content-between align-items-start border-top pt-3"
-                >
-                  <div class="lato c-semi-black fs-18">$125/session</div>
-                  <div>
-                    <a href="services-detail.html" class="btn-dark">
-                      Learn More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-service-3 mb-4 fade-in">
-            <div class="custom-card">
-              <div class="card-body bg-semi-white">
-                <div>
-                  <p class="text-subtitle c-semi-black">Shirodhara Therapy</p>
-                  <p class="text-grey">
-                    A calming treatment where warm herbal oil is poured gently
-                    onto the forehead
-                  </p>
-                </div>
-                <div
-                  class="d-flex justify-content-between align-items-start border-top pt-3"
-                >
-                  <div class="lato c-semi-black fs-18">$125/session</div>
-                  <div>
-                    <a href="services-detail.html" class="btn-dark">
-                      Learn More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-service-4 mb-4 fade-in">
-            <div class="custom-card">
-              <div class="card-body bg-semi-white">
-                <div>
-                  <p class="text-subtitle c-semi-black">Ayurvdeic Facial</p>
-                  <p class="text-grey">
-                    A nourishing facial using natural herbs and oils tailored to
-                    your skin type, and skin health
-                  </p>
-                </div>
-                <div
-                  class="d-flex justify-content-between align-items-start border-top pt-3"
-                >
-                  <div class="lato c-semi-black fs-18">$125/session</div>
-                  <div>
-                    <a href="services-detail.html" class="btn-dark">
-                      Learn More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="mt-5 fade-in">
+          <iframe
+            loading="lazy"
+            class="maps overflow-hidden"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48346.62710714776!2d-73.78270764795138!3d40.76940999818811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1732409507385!5m2!1sid!2sid"
+            title="US"
+            aria-label="US"
+          ></iframe>
         </div>
       </div>
     </div>
-    <!-- Our Service End -->
-    <!-- Why Choose Us Start -->
-    <div class="bg-darker position-relative">
-      <div
-        class="bg-choose-us width-base position-relative position-lg-absolute choose-position"
-      >
-        <div class="fade-in">
-          <div class="d-flex justify-content-center">
-            <span class="icon-circle-17"><i class="fa-solid fa-plus"></i></span>
-            <span class="ms-2 philosopher fs-14 c-white">WHY CHOOSE US</span>
-          </div>
-          <div class="title-about mt-1 mb-5 c-white w-80 mx-auto text-center">
-            The Ultimate Ayurvedic Wellness Experience
-          </div>
-        </div>
-        <div class="container px-0">
-          <div class="row row-cols-1 row-cols-md-3 fade-in p-5">
-            <div
-              class="col d-flex flex-column align-items-center border-bottom border-lg-right border-white"
-            >
-              <div class="mt-4">
-                <img
-                  src="img/icons-UGGEC4D_4.png"
-                  width="52"
-                  height="52"
-                  alt="choose"
-                />
-              </div>
-              <p class="text-subtitle c-white mt-3">Authentic Ayurveda</p>
-              <p class="text-white text-center m-0 mb-lg-4">
-                Experience genuine Ayurvedic treatments rooted in centuries of
-                tradition
-              </p>
-            </div>
-            <div
-              class="col d-flex flex-column align-items-center border-bottom border-white"
-            >
-              <div class="mt-4">
-                <img
-                  src="img/icons-UGGEC4D_9.png"
-                  width="52"
-                  height="52"
-                  alt="choose"
-                />
-              </div>
-              <p class="text-subtitle c-white mt-3">Natural Healing Methods</p>
-              <p class="text-white text-center m-0 mb-lg-4">
-                We use only natural, herbal remedies and traditional Ayurvedic
-                techniques
-              </p>
-            </div>
-            <div
-              class="col d-flex flex-column align-items-center border-lg-left border-bottom border-white"
-            >
-              <div class="mt-4">
-                <img
-                  src="img/icons-UGGEC4D_5.png"
-                  width="52"
-                  height="52"
-                  alt="choose"
-                />
-              </div>
-              <p class="text-subtitle c-white mt-3">Expert Practitioners</p>
-              <p class="text-white text-center m-0 mb-lg-4">
-                Our services blend therapeutic treatments with lifestyle
-                guidance
-              </p>
-            </div>
-            <div
-              class="col d-flex flex-column align-items-center border-lg-right border-bottom border-lg-bottom-0 border-white"
-            >
-              <div class="mt-4">
-                <img
-                  src="img/icons-UGGEC4D_6.png"
-                  width="52"
-                  height="52"
-                  alt="choose"
-                />
-              </div>
-              <p class="text-subtitle c-white mt-3">Natural Ingredients</p>
-              <p class="text-white text-center m-0">
-                We use only natural, herbal remedies and techniques, promoting
-                safe
-              </p>
-            </div>
-            <div
-              class="col d-flex flex-column align-items-center border-bottom border-lg-bottom-0"
-            >
-              <div class="mt-4">
-                <img
-                  src="img/icons-UGGEC4D_7.png"
-                  width="52"
-                  height="52"
-                  alt="choose"
-                />
-              </div>
-              <p class="text-subtitle c-white mt-3">Serene Environment</p>
-              <p class="text-white text-center m-0">
-                Our tranquil spa setting is designed to enhance relaxation
-              </p>
-            </div>
-            <div
-              class="col d-flex flex-column align-items-center border-lg-left border-bottom border-lg-bottom-0 border-white"
-            >
-              <div class="mt-4">
-                <img
-                  src="img/icons-UGGEC4D_8.png"
-                  width="52"
-                  height="52"
-                  alt="choose"
-                />
-              </div>
-              <p class="text-subtitle c-white mt-3">Proven Results</p>
-              <p class="text-white text-center m-0">
-                With a 99% customer satisfaction rate, our clients consistently
-                leave feeling revitalized
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="width-base partner-margin fade-in">
-        <p class="text-silver text-center">
-          Trusted by Leading Brands – Delivering Wellness Excellence Through
-          Proven Partnerships
-        </p>
-        <div class="swiper-container mt-5">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="img/logo-1.png" alt="Logo 1" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-2.png" alt="Logo 2" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-3.png" alt="Logo 3" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-4.png" alt="Logo 4" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-5.png" alt="Logo 5" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-6.png" alt="Logo 6" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-7.png" alt="Logo 7" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-8.png" alt="Logo 8" />
-            </div>
-            <div class="swiper-slide">
-              <img src="img/logo-9.png" alt="Logo 9" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Why Choose Us End -->
+    <!-- Contact Us End -->
+    
     <!-- FAQS Start -->
     <div class="bg-semi-white w-100">
       <div class="width-base">
@@ -801,7 +522,7 @@
                 <h3 class="text-subtitle c-white my-4">Contact</h3>
                 <div>
                   <p class="text-silver my-0">+1(234)567890</p>
-                  <p class="text-silver">email : <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="1b72757d745b6c726d7a757a35787476">[email&#160;protected]</a></p>
+                  <p class="text-silver">email : <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="137a7d757c53647a65727d723d707c7e">[email&#160;protected]</a></p>
                 </div>
               </div>
             </div>
@@ -880,8 +601,8 @@
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="lib/js/bootstrap.bundle.min.js"></script>
     <script src="lib/js/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"96c77a890af73af7","version":"2025.7.0","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"bf2b6dfde57a4688a8a7204e4a949833","b":1}' crossorigin="anonymous"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"96c77a87397f0e1c","version":"2025.7.0","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"bf2b6dfde57a4688a8a7204e4a949833","b":1}' crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from wivana-html.zaderonstudio.com/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Aug 2025 13:08:18 GMT -->
+<!-- Mirrored from wivana-html.zaderonstudio.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Aug 2025 13:08:18 GMT -->
 </html>
